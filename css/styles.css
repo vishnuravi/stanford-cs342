@@ -1,0 +1,113 @@
+body {
+  font: 16px/1.5 "Source Sans Pro", "PT Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  color: #222;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1.2;
+  color: #000;
+  font-weight: bold;
+}
+h3 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: normal;
+}
+p {
+  margin-top: 0;
+}
+a {
+  color: #548c79;
+}
+a:hover {
+  text-decoration: none;
+}
+.top-bar,
+.bottom-bar {
+  height: 40px;
+  background: url("../images/pattern.jpg") repeat;
+  box-shadow: inset 0 0 5px #999;
+}
+#wrapper {
+  width: 780px;
+  margin: 50px auto;
+}
+.subline {
+  font: 1.1em/1 "Josefin Sans", "Josefin Slab", "Source Sans Pro", "PT Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: -5px;
+}
+.logo .eight,
+.nav {
+  margin-left: 30px;
+}
+.logo img {
+  float: right;
+  margin-top: 10px;
+  width: 50px;
+}
+.ui.vertical.menu {
+  width: auto;
+}
+.content {
+  position: relative;
+}
+.pulled {
+  font: 1.1em/1.2 "Josefin Sans", "Josefin Slab", "Source Sans Pro", "PT Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  position: absolute;
+  color: #777;
+  text-align: right;
+  margin-top: 5px;
+  font-style: normal;
+}
+.section {
+  margin-bottom: 80px;
+}
+.class.meta,
+.class.assignment {
+  overflow: hidden;
+}
+.class.assignment {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.class.assignment .name {
+  font-size: 18px;
+  float: left;
+  text-decoration: none;
+}
+.class.meta .topic {
+  font-size: 18px;
+  float: left;
+  text-decoration: underline;
+}
+.class .action {
+  float: right;
+}
+.class .action .button {
+  margin: 0px 5px;
+}
+.class.description {
+  margin-bottom: 30px;
+}
+.ui.divided.list {
+  margin-top: 0;
+}
+.ui.divided.list .item {
+  overflow: hidden;
+  line-height: 25px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.amp {
+  font: italic 18px Baskerville, "Source Sans Pro", "PT Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+.overflow-clear {
+  overflow: hidden;
+}
